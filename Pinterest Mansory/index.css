@@ -1,0 +1,29 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 250px);
+  justify-content: center;
+}
+
+.item {
+  padding: 5px;
+  background-color: #bdbdbd;
+  margin: 0;
+  padding: 3px;
+}
+
+.item img {
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+.lvl1 {
+  grid-row-end: span 1; 
+}
+
+.lvl2 {
+  grid-row-end: span 1;
+}
+
+.lvl3 {
+  grid-row-end: span 2;
+}

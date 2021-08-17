@@ -1,0 +1,14 @@
+.hero{
+  font-family: calibri;
+  line-height: 30px;
+}
+
+.header {
+  font-family: calibri;
+  background-color: #25282a;
+}
+
+.header a {
+  text-decoration: none;
+  color: #fff;
+}

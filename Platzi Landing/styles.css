@@ -1,0 +1,133 @@
+/* Color fondo del landing: #23475b
+Color borde input: #dbdbe2
+Color fuente formulario: #3a3b3f
+Color relleno botón: #98ca3f
+Color borde botón: #6d932b */
+
+body {
+  margin: 0;
+}
+
+.main {
+  background-color: #23475b;
+  font-family: 'Lato', sans-serif;
+  padding: 32px 15px;
+  display: grid;
+  grid-template-columns: minmax(auto, 1024px);
+  justify-content: center;
+}
+
+.hero {
+  display: grid;
+  grid-template-columns: 70px 1fr 320px;
+  grid-template-areas: "badge title form"
+                        ". description form"
+                        ". countdown form";
+  /* grid-gap: 10px; */
+}
+
+.title {
+  font-weight: 400;
+  font-size: 36px;
+  color: white;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  grid-area: title;
+}
+
+.badge {
+grid-area: badge;
+}
+
+.badge img {
+  max-width: 70px;
+}
+
+.description {
+  color: white;
+  font-size: 16px;
+  grid-area: description;
+}
+
+.register {
+  background-color: rgba(255, 255, 255, .9);
+  border: 1px solid #dbdbe2;
+  border-radius: 10px;
+  padding: 24px;
+  text-align: center;
+  grid-area: form;
+}
+
+.form-title h2 {
+  font-weight: 700;
+  font-size: 20px;
+  color: #3a3b3f;
+  margin-bottom: 1em;
+}
+
+.name input {
+  width: 100%;
+  height: 40px;
+  border: 1px solid #dbdbe2;
+  border-radius: 5px;
+  font-size: 16px;
+  padding: 10px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  font-weight: 400;
+}
+
+.email input {
+  width: 100%;
+  height: 40px;
+  border: 1px solid #dbdbe2;
+  border-radius: 5px;
+  font-size: 16px;
+  padding: 10px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  font-weight: 400;
+}
+
+button {
+  font-size: 16px;
+  color: white;
+  background-color: #98ca3f;
+  padding: 10px 15px;
+  border-radius: 5px;
+  border: none;
+  border-bottom: 5px solid #6d932b;
+  display: inline-block;
+}
+
+.countdown{
+  grid-area: countdown;
+}
+
+.countdown p {
+  font-size: 20px;
+  text-align: center;
+  font-weight: 300;
+  color: white;
+}
+
+.countdown-time span {
+  font-size: 33px;
+}
+
+@media screen and (max-width: 768px) {
+  .hero {
+    grid-template-columns: 70px 1fr;
+    grid-template-areas: "badge title"
+                          ". description"
+                          "form form"
+                          "countdown countdown";
+  }
+        /* Responsive Design media query */
+}
+
+.porn {
+  width: 300px;
+  display: none;
+}

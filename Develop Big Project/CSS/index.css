@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: #f2f2f2;
+}
+
+body {
+  background: linear-gradient(rgba(0, 0, 0,.3), rgba(0, 0, 0, .3)), url(../Images/Wallpapers/Wallpaper\ 1.jpg);
+  background-size: 2800px;
+  background-position-x: -370px;
+  background-position-y: -430px;
+  background-repeat: repeat-y;
+}
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  padding: 0px 20px;
+}
+
+.header__menu-item {
+  display: inline-block;
+  margin: 0px 20px;
+  font-size: 16px;
+  font-family: 'Gotham';
+  font-weight: bold;
+}
+
+.login {
+  margin: 10px 20px;
+}
+
+.hero {
+  margin-top: 154px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Gotham';
+}
+
+.hero__text h2 {
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.hero__text h1 {
+  font-size: 120px;
+  font-weight: bold;
+}
+/* H1 colors */
+.hero__text-red {
+  color: #D16070;
+}
+.hero__text-green {
+  color: #87D0B1;
+}
+.hero__text-yellow {
+  color: #D1BA0A;
+}
+
+.hero__text p {
+  width: 800px;
+  font-family: 'Cabin';
+  font-size: 24px;
+  text-align: center;
+  margin-top: 115px;
+  margin-bottom: 42px;
+}
+
+.hero__text__button {
+  width: 200px;
+  text-align: center;
+  border: 3px solid;
+  padding: 13px 29px;
+}
+
+ .hero__text__button a {
+   font-weight: bold;
+   text-decoration: none;
+   font-size: 26px;
+ }
+/* Scroll */
+.down-arrow {
+  margin-top: 150px;
+}

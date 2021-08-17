@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../CSS/basic-css.css">
+  <title>Learning Path | CSS3</title>
+</head>
+<body>
+  <header>
+    <!-- menu -->
+  </header>
+  <figure>
+    <!-- wallpaper -->
+  </figure>
+  <article class="css-intro">
+    <img src="" alt="css3">     <!-- Material image or gif for css3 -->
+    <p>En esta sección se intentará explicar el uso del lenguaje de estilos CSS3 y sus diversas funciones, para una mejor comprensión y uso del mismo.</p>
+  </article>
+  <nav>
+    <ul>
+      <li class="css-nav"><a href="#what-is">¿Qué es?</a></li>
+      <li class="css-nav"><a href="#syntax">Syntax</a></li>
+      <li class="css-nav"><a href="#units">Measure Units</a></li>
+      <li class="css-nav"><a href="#colors">Colors</a></li>
+      <li class="css-nav"><a href="#fonts">Fonts</a></li>
+      <li class="css-nav"><a href="#bck">Background</a></li>
+      <li class="css-nav"><a href="#display">Display</a></li>
+      <li class="css-nav"><a href="#box">Box Model</a></li>
+      <li class="css-nav"><a href="#sizing">Object Size</a></li>
+      <li class="css-nav"><a href="#border">Border</a></li>  
+      <li class="css-nav"><a href="#margin">Margin</a></li>
+      <li class="css-nav"><a href="#padding">Padding</a></li>
+      <li class="css-nav"><a href="#position">Position</a></li>
+    </ul>
+  </nav>
+  <article class="what-is" id="what-is">
+    <h1>¿Qué es <strong class="css3-bold-head">css3</strong>?</h1>
+    <p>Cascade StyleSheets, como su nombre lo indica, es un lenguaje de diseño y estilos visuales de un sitio web cuando este se encuentra compilado en un lenguaje de marcado, como ser HTML. CSS sirve para dar descripción a las formas y la sintaxis del lenguaje de marcado, pudiendo así generar efectos visuales agradables para una mejor experiencia de usuario. Se basa en un modelo de caja común a todos los elementos, pudiéndose manipular cada una de ellas en forma, tamaño, posición, márgenes internos y externos, etc. En la actualidad se utiliza como estándar el CSS3, que a su vez tiene subdivisiones tales como Grid Layout, Flexbox, Bootstrap, Materialize, etc. </p>
+  </article>
+  <article class="css-syntax" id="syntax">
+    <h1>Syntax</h1>
+    <p>CSS3 funciona mediante reglas que se aplican a cada etiqueta, clase, ID o conjunto de todas ellas escritas en HTML para otorgarle determinados estilos y posiciones dentro del sitio web. Cada regla lleva la siguiente sintaxis</p>
+    <img src="" alt="syntax">     <!-- Materialize and colorize syntax image here -->
+    <ul class="syntax-list">
+      <li class="syntax-item">
+        <h2 class="syntax-list-title">Reglas</h2>
+        <p>Es la totalidad del texto escrito para un mismo selector</p>
+      </li>
+      <li class="syntax-item cascade">
+        <h2 class="syntax-list-title">Selectores</h2>
+        <p>Es la referencia hacia la etiqueta, clase o ID escrito en HTML. Algunos de los casos posibles para llamar una etiqueta pueden ser</p>
+        <ul class="syntax-sublist">
+          <li class="syntax-subitem">
+            <h2 class="syntax-sublist-title">Etiqueta</h2>
+            <p>Simplemente se escribe a la etiqueta que se quiere modificar. Se suele utilizar en el header o el footer, ya que las demás etiquetas se suelen repetir y no siempre se desea darles el mismo estilo a todas ellas</p>
+            <p class="syntax-example">header { propiedad: valor; }</p>
+          </li>
+          <li class="syntax-subitem">
+            <h2 class="syntax-sublist-title">Etiquetas padre-hijo</h2>
+            <p>Se utilizan para especificar un único tipo de etiqueta mediante la relación que tiene la misma con sus etiquetas padre. Se utiliza mucho en los elementos de lista y los menús de navegación internos</p>
+            <p class="syntax-example">nav ul li { propiedad: valor; }</p>
+          </li>
+          <li class="syntax-subitem">
+            <h2 class="syntax-sublist-title">Clase</h2>
+            <p>Además de las etiquetas padre-hijo, para una mayor precisión en la modificación del aspecto de un elemento HTML, se suelen utilizar con frecuencia los selectores de clase. Estos pueden funcionar aislados, es decir, insertando solo el nombre de la clase; o también de manera conjunta con etiquetas del mismo elemento. Su sintaxis se escribe simplemente agregando un punto al principio</p>
+            <p class="syntax-example">.menu-item { propiedad: valor; }
+              nav ul li.menu-item { propiedad: valor; }</p>
+          </li>
+          <li class="syntax-subitem">
+            <h2 class="syntax-sublist-title">ID</h2>
+            <p>Su uso es muy similar al de las clases, solo que, al ser de uso único de HTML, no se utilizan con tanta frecuencia. Su sintaxis lleva por delante un #</p>
+            <p class="syntax-example">#list-item { propiedad: valor; }</p>
+          </li>
+        </ul>
+      </li>
+      <li class="syntax-item">
+        <h2 class="syntax-list-title">Declaración</h2>
+        <p>Incluye las propiedades que se le aplican al selector. Puede contener más de una</p>
+      </li>
+      <li class="syntax-item">
+        <h2 class="syntax-list-title">Propiedad</h2>
+        <p>Indica el atributo a modificar, como color, subrayado, tamaño, etc</p>
+      </li>
+      <li class="syntax-item">
+        <h2 class="syntax-list-title">Valor</h2>
+        <p>Indica la magnitud de la propiedad. Posee varias unidades de medida</p>
+      </li>
+    </ul>
+  </article>
+  <article class="css-units" id="units">
+    <p></p>
+  </article>
+</body>
+</html>
