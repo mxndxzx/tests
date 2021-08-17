@@ -3,7 +3,10 @@
 # elementos de una lista y simultáneamente los
 # elimine, hasta quedar vacía.
 
-values = [1,2,3,4,5,6,7,8,9,10]
 
-while len(values) > 0:
+lista = [1,2,3,4,5,6,7,8,9,10]
+
+while len(lista) > 0:
+    print(lista[0])
+    del lista[0] # Delete
     
