@@ -38,7 +38,7 @@ class best_albums(user): # Inherit, herencia de la clase 'user' (todo, atributos
     top4 = ""
     top5 = ""
     
-    def __init__(self, name, surname, artist_name, job, t1, t2, t3, t4 ,t5):
+    def __init__(self, name, surname, artist_name, job, t1, t2, t3, t4 ,t5): # Builder para las dos clases (user es la main y best_albums la child)
         self.name = name
         self.surname = surname
         self.artist_name = artist_name
